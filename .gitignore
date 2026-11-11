@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Credenciais
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Dados locais
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Sistema
+.DS_Store
+*.log
